@@ -157,7 +157,11 @@ li {
 .p_main_upload_inputtext.align-right { 
   margin-left: auto;
   color: #919EB6;
+  outline: none;
+  border: none;
+  background: none;
 }
+
 .p_main_upload_text{
   width: inherit;
   outline: none;
@@ -204,8 +208,8 @@ align-items: center;
 }
 
 .p_main_feed_item_profile_button{
-width:  58px;
-height: 24px;
+width: 80px;
+height: 30px;
 top: 69px;
 left: 301px;
 padding: 6px 12px 6px 12px;
@@ -214,6 +218,8 @@ color: #fff;
 background: #01B99F;
 margin-left: auto;
 text-align: center;
+border: none;
+border-color: transparent;
 }
 
 .p_main_content_head{

@@ -86,11 +86,11 @@ function App() {
                       className="p_main_feed_item_profile_symbol"
                       src={Ellipse}
                       alt=""
-                    />{" "}
+                    />
                     <span>53kg</span>
                   </div>
                 </div>
-                <div className="p_main_feed_item_profile_button">팔로우</div>
+                <button className="p_main_feed_item_profile_button">팔로우</button>
               </div>
               <br />
               <div className="p_main_content_head">
@@ -162,7 +162,9 @@ function App() {
                     placeholder="댓글을 남겨주세요."
                   />
                 </div>
-                <div className="p_main_upload_inputtext align-right">제일</div>
+                <button className="p_main_upload_inputtext align-right">
+                제일
+                </button>
               </div>
             </div>
           </div>
